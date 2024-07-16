@@ -22,11 +22,6 @@ public class Program {
 
         int [] sortedArray = ordinaVettoriNum(teste);
 
-        // int lunghezza = sortedArray.Count();
-        // for (int i = 0; i < lunghezza; i++){
-        //     Console.WriteLine(ordinaVettoriNum(teste)[i]);
-        // }
-
         StringBuilder resultBuilder = new StringBuilder();
 
         foreach (int element in sortedArray) {
@@ -34,6 +29,6 @@ public class Program {
         }
 
         Console.WriteLine(resultBuilder);
-        
+
     }
 }
