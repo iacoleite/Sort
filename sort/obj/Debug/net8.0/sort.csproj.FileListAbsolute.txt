@@ -1,0 +1,14 @@
+C:\Users\asusc\Desktop\corso_c#\Sort\sort\bin\Debug\net8.0\sort.exe
+C:\Users\asusc\Desktop\corso_c#\Sort\sort\bin\Debug\net8.0\sort.deps.json
+C:\Users\asusc\Desktop\corso_c#\Sort\sort\bin\Debug\net8.0\sort.runtimeconfig.json
+C:\Users\asusc\Desktop\corso_c#\Sort\sort\bin\Debug\net8.0\sort.dll
+C:\Users\asusc\Desktop\corso_c#\Sort\sort\bin\Debug\net8.0\sort.pdb
+C:\Users\asusc\Desktop\corso_c#\Sort\sort\obj\Debug\net8.0\sort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asusc\Desktop\corso_c#\Sort\sort\obj\Debug\net8.0\sort.AssemblyInfoInputs.cache
+C:\Users\asusc\Desktop\corso_c#\Sort\sort\obj\Debug\net8.0\sort.AssemblyInfo.cs
+C:\Users\asusc\Desktop\corso_c#\Sort\sort\obj\Debug\net8.0\sort.csproj.CoreCompileInputs.cache
+C:\Users\asusc\Desktop\corso_c#\Sort\sort\obj\Debug\net8.0\sort.dll
+C:\Users\asusc\Desktop\corso_c#\Sort\sort\obj\Debug\net8.0\refint\sort.dll
+C:\Users\asusc\Desktop\corso_c#\Sort\sort\obj\Debug\net8.0\sort.pdb
+C:\Users\asusc\Desktop\corso_c#\Sort\sort\obj\Debug\net8.0\sort.genruntimeconfig.cache
+C:\Users\asusc\Desktop\corso_c#\Sort\sort\obj\Debug\net8.0\ref\sort.dll
