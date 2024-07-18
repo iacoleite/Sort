@@ -25,6 +25,15 @@ public class Program {
         StringBuilder resultBuilder = new StringBuilder();
 
         foreach (int element in sortedArray) {
+            // this is not working because if the last item is the same as the item before it does not put the ", "
+            // if (element == sortedArray[sortedArray.Length - 1]) 
+            // {
+            //     resultBuilder.Append(element);
+            // }
+            // else 
+            // {
+            //     resultBuilder.Append(element + ", ");
+            // }
             resultBuilder.Append(element + ", ");
         }
 
