@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Globalization;
 using System.Net;
 using System.Text;
 
@@ -6,7 +7,9 @@ public class Program {
     public static void Main(string[] args) {
 
         int[] teste = [54,5643,34,345,465,764,235,142,21,234,3456,4675,3456,423,432,213,123,321,5342,543,4576,5687,5,4756,534,5432,2134,234,7465,867,6798,5867,678,5678,7465];
-        
+
+        Console.WriteLine(teste.toString());
+
         static int[] ordinaVettoriNum(int []num) {
             for(int i = 0; i < num.Count(); i++) {
                 for (int j = i + 1; j < num.Count() - 1; j++) {
@@ -21,23 +24,28 @@ public class Program {
         }
 
         int [] sortedArray = ordinaVettoriNum(teste);
+        
 
-        StringBuilder resultBuilder = new StringBuilder();
+        // StringBuilder resultBuilder = new StringBuilder();
 
-        foreach (int element in sortedArray) {
-            // this is not working because if the last item is the same as the item before it does not put the ", "
-            // if (element == sortedArray[sortedArray.Length - 1]) 
-            // {
-            //     resultBuilder.Append(element);
-            // }
-            // else 
-            // {
-            //     resultBuilder.Append(element + ", ");
-            // }
-            resultBuilder.Append(element + ", ");
-        }
+        // foreach (int element in sortedArray) {
 
-        Console.WriteLine(resultBuilder);
+        //     resultBuilder.Append(element + ", ");
+        // }
+
+        // string resultado = resultBuilder.ToString();
+
+        // Console.WriteLine(resultado.Remove(resultado.Length - 2));
+
+        // Console.WriteLine(convertArrayToString.toString(sortedArray)); 
+        Console.WriteLine(sortedArray.toString()); 
+
+        
+        ;
 
     }
+
 }
+        
+    
+
