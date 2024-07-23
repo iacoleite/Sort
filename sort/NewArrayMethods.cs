@@ -2,8 +2,12 @@ namespace AlgoritimiOrdinamento {
 
 using System.Text;
 
+public class PerMettereMethodConVoid {}
+
+
 public static class NewArrayMethods
 {
+
 
     public static string stampaStringa(this int[] num)
     {
@@ -18,7 +22,8 @@ public static class NewArrayMethods
 
         return resultado;
     }
-    // public static int[] ordinaVettoriNum(this int[] num)
+    
+    // public static void ordinaVettoriNumVoid(this int[] num)
     // {
     //     for (int i = 0; i < num.Count(); i++)
     //     {
@@ -32,7 +37,7 @@ public static class NewArrayMethods
     //             }
     //         }
     //     }
-    //     return num;
+    //     // Console.WriteLine(num.stampaStringa());
     // }
 
     public static int[] insertSort(this int[] num)
@@ -112,6 +117,8 @@ public static class NewArrayMethods
         num[fine] = temp1;
         return i + 1; // localizazione del pivot
     }
+
+    
 }
 
 }
