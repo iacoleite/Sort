@@ -1,4 +1,4 @@
-namespace Sort;
+namespace AlgoritimiOrdinamento {
 
 using System.Text;
 
@@ -114,3 +114,4 @@ public static class NewArrayMethods
     }
 }
 
+}

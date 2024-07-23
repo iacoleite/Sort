@@ -1,4 +1,4 @@
-﻿namespace Sort;
+﻿namespace AlgoritimiOrdinamento;
 
 // See https://aka.ms/new-console-template for more information
 
@@ -51,6 +51,8 @@ public class Program {
         MiaClasse personaggio1 = new MiaClasse();
         personaggio1.puntiVita = 100;
         personaggio1.puntiAttachi = 10;
+
+        Console.WriteLine(personaggio1.puntiVita);
 
     }
 }
