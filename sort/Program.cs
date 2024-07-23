@@ -82,24 +82,27 @@ public class Program {
         int []vett = [3212,524,5567,657,335,2,5,75,8,9,89,56,43,24,323];
         Console.WriteLine(vett.stampaStringa());
 
-        Console.WriteLine("Chiama metodo ordinaVettoriNumVoid, lui stampa da solo il vettore in ordine:");
+        Console.WriteLine("Chiama metodo ordinaVettoriNumVoid");
         ordinaVettoriNumVoid(vett);
+        
 
-        Console.WriteLine("Stampo il vettore che ho appena ordinato con ordinaVettoriNumVoid, il vettore è in ordine perchè array è un tipo referenziato:");
+        Console.WriteLine("Stampa il vettore che ho appena ordinato con ordinaVettoriNumVoid, il vettore è in ordine perchè array è un tipo referenziato:");
         Console.WriteLine(vett.stampaStringa());
 
 
-
+        Console.WriteLine("-=-=---=-=-=-=-=-===-=-=-=-=-");
         int x = 10;
+        Console.WriteLine("Questo è il valore di x che abbiamo dichiarato: " + x);
         void incrementaNumero(int x) {
             x++;
-            Console.WriteLine(x);
+            Console.WriteLine("Questo è il valore di x dentro del metodo 'incrementaNumero': " + x);
 
         }
         
         incrementaNumero(x);
 
-        Console.WriteLine(x);
+        
+        Console.WriteLine("Questo è il valore di x DOPO però fuori del metodo 'incrementaNumero': " + x);
 
 
 
