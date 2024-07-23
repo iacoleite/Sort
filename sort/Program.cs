@@ -54,6 +54,8 @@ public class Program {
 
 
         teste = [54,5643,34,345,465,764,235,142,21,234,3456,4675,3456,423,432,213,123,321,5342,543,4576,5687,5,4756,534,5432,2134,234,7465,867,6798,5867,678,5678,7465];
+        Console.WriteLine("Senza ordine:");
+        Console.WriteLine(teste.stampaStringa());
         Console.WriteLine("Con Select Sort VOID:");
         ordinaVettoriNumVoid(teste);
         Console.WriteLine(teste.stampaStringa());
@@ -87,25 +89,17 @@ public class Program {
         Console.WriteLine(vett.stampaStringa());
 
 
-        // Console.WriteLine();
-        // Console.WriteLine("Cambiamo argumenti!");
-        // Console.WriteLine();
 
-        // MiaClasse personaggio1 = new MiaClasse();
-        // personaggio1.puntiVita = 100;
-        // personaggio1.puntiAttachi = 10;
-        // Console.WriteLine("Ok, abbiamo creato un personaggio di MiaClasse, lui ha ricevuto " + personaggio1.puntiVita + " punti di vita e " + personaggio1.puntiAttachi + " di attachi");
-        // Console.WriteLine("Il personaggio ha trovato una pozione magica nella foresta, però è un po' strana:");
-        // personaggio1.incrementaPuntiVitaTemporareo(personaggio1.puntiVita);
-        // Console.WriteLine("Il personaggio prova di capire che cosa è successo, lui ha " + personaggio1.puntiVita + " punti di vita e " + personaggio1.puntiAttachi + " di attachi");
-        // Console.WriteLine("Dopo la deluzione lui era arrabiato e ha lutato contra tanti mostri!!");
-        // personaggio1.incrementaPuntiVitaLivelo(personaggio1.puntiVita);
+        int x = 10;
+        void incrementaNumero(int x) {
+            x++;
+            Console.WriteLine(x);
 
-        // Console.WriteLine("Con paura di essere una cosa finta, facciamo il controllo ancora");
-        // Console.WriteLine("Il personaggio prova di capire che cosa è successo, lui ha " + personaggio1.puntiVita + " punti di vita e " + personaggio1.puntiAttachi + " di attachi");
+        }
+        
+        incrementaNumero(x);
 
-
-
+        Console.WriteLine(x);
 
 
 

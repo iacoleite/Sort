@@ -14,3 +14,25 @@ public class MiaClasse {
         return this.puntiVita;
     }
 }
+
+
+// ritirato del main perchè non faceva più senso... 
+
+        // Console.WriteLine();
+        // Console.WriteLine("Cambiamo argumenti!");
+        // Console.WriteLine();
+
+        // MiaClasse personaggio1 = new MiaClasse();
+        // personaggio1.puntiVita = 100;
+        // personaggio1.puntiAttachi = 10;
+        // Console.WriteLine("Ok, abbiamo creato un personaggio di MiaClasse, lui ha ricevuto " + personaggio1.puntiVita + " punti di vita e " + personaggio1.puntiAttachi + " di attachi");
+        // Console.WriteLine("Il personaggio ha trovato una pozione magica nella foresta, però è un po' strana:");
+        // personaggio1.incrementaPuntiVitaTemporareo(personaggio1.puntiVita);
+        // Console.WriteLine("Il personaggio prova di capire che cosa è successo, lui ha " + personaggio1.puntiVita + " punti di vita e " + personaggio1.puntiAttachi + " di attachi");
+        // Console.WriteLine("Dopo la deluzione lui era arrabiato e ha lutato contra tanti mostri!!");
+        // personaggio1.incrementaPuntiVitaLivelo(personaggio1.puntiVita);
+
+        // Console.WriteLine("Con paura di essere una cosa finta, facciamo il controllo ancora");
+        // Console.WriteLine("Il personaggio prova di capire che cosa è successo, lui ha " + personaggio1.puntiVita + " punti di vita e " + personaggio1.puntiAttachi + " di attachi");
+
+
