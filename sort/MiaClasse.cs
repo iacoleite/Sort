@@ -17,7 +17,15 @@ public class MiaClasse
 
         return this.puntiVita;
     }
-}
+
+    // costtrutore 
+        public MiaClasse(int puntiVita, int puntiAttachi)
+        {
+        this.puntiVita=puntiVita;
+        this.puntiAttachi=puntiAttachi;
+    }  
+        
+ }
 
 
 
